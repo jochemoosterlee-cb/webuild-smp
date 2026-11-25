@@ -10,8 +10,8 @@ participant:
   registrant: Triveria s. r. o.                                  # informational, not published
 services:
   - service:
-      scheme: bdx-docid-qns
-      value: "urn:webuild:qerds:wmp-test:1.0"       # PLACEHOLDER: the agreed demo document type
+      scheme: webuild-svcid
+      value: "urn:webuild:qerds:wmp-test:1.0"       # PLACEHOLDER (webuild-svcid: bdx-docid-qns is for {namespace}::{localName} document types)
     processMetadata:
       - process:
           value: "urn:webuild:proc:wmp-test:1.0"     # PLACEHOLDER

@@ -82,7 +82,7 @@ Participants are identified with ebCore party ID schemes. Services (document typ
 
 - **ID-01** Registrants MUST register participant scheme and value in lower case.
 - **ID-02** Senders MUST lower-case the full participant identifier `{scheme}::{value}` before hashing (section 5) and before building the SMP URL (section 6).
-- **ID-03** Participant schemes MUST come from the list the operator publishes. The list is ISO 6523 ICDs 0192, 0088, 0208, 0106 and 0007, as ebCore URNs.
+- **ID-03** Participant schemes MUST come from the list the operator publishes. The list is ISO 6523 ICDs 0192, 0088, 0208, 0106, 0007 and 0245, as ebCore URNs.
 - **ID-04** Service and process identifiers are case-insensitive, as [SMP2] defines unless a scheme says otherwise; clients such as phoss fold `bdx-docid-qns` values to lower case. Senders MUST use them either exactly as registered or fully lower-cased. The SMP MUST serve both forms.
 - **ID-05** In URLs, each identifier MUST be percent-encoded as one path segment, as [SMP2] requires. At least `:` becomes `%3A`, `#` becomes `%23` and `/` becomes `%2F`.
 - **ID-06** The SMP MUST also accept `:` unencoded, because clients differ in practice.
